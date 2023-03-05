@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Текстовый редактор</title>
+    <link rel="shortcut icon" href="../images/8 march.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <textarea spellcheck="false" placeholder="Ваш текст" required></textarea>
+      <div class="file-options">
+        <div class="option file-name">
+          <label>Имя файла</label>
+          <input type="text" spellcheck="false" placeholder="Enter file name">
+        </div>
+        <div class="option save-as">
+          <label>Сохранить как</label>
+          <div class="select-menu">
+            <select>
+              <option value="text/plain">Text файл (.txt)</option>
+              <option value="text/javascript">JS файл (.js)</option>
+              <option value="text/html">HTML файл (.html)</option>
+              <option value="image/svg+xml">SVG файл (.svg)</option>
+              <option value="application/msword">Doc файл (.doc)</option>
+              <option value="application/vnd.ms-powerpoint">PPT файл (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save-btn" type="button">Save As Text File</button>
+	  <a href="../index.html" style="text-decoration: none; color: blueviolet;">На Главную</a>
+    </div>
+    
+  </body>
+</html>
